@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content-main{
+    padding: 20px 50px 20px 50px;
+}
+
+/* TODO : style HEADER */
+.header_container{
+    background: orange;
+    color: white;
+}
+.dropdown-menu-search{
+    display: inline;
+}
+
+
+.nav-menu-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-header{
+    display: inline;
+    padding: 0;
+}
+.menu-header li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.sign-in{
+    display: inline;
+    margin-top: 10px;
+}
+.sign-in button{
+    margin-right: 20px;
+}
+.header-cart{
+    display: inline;
+}
+
+/* TODO : Container */
+.header-container{
+    background: pink;
+    /* padding: 20px 0 20px 0; */
+}
+.header-container p{
+    width: 300px;
+}
+.container-main{
+    background: cyan;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* khoảng cách giữa các column */
+    grid-column-gap: 10px;
+    padding-top: 40px;
+}
+.container-main{
+
+}
+.welcome{
+
+
+}
+.welcome button{
+
+    display: block;
+
+
+}
+.popular{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+.title-ele{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.popular-item{
+
+}
+.clothing{
+
+
+}
+.deals{
+
+
+}
+.footer-container button{
+    width: 100%;
+}
+
+
+/* TODO : Footer */
+footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
