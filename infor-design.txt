@@ -1,3 +1,0 @@
-﻿Layout : bố cục gồm 4 cột 
-Các hàng : header - contain - footer
-	-	header : search - nav-bar
