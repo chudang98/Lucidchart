@@ -2,6 +2,12 @@
     padding: 0;
     margin: 0;
 }
+a{
+
+    text-decoration: none;
+    color: black;
+
+}
 
 .content-main{
     padding: 20px 50px 20px 50px;
@@ -9,18 +15,51 @@
 
 /* TODO : style HEADER */
 .header_container{
-    background: orange;
-    color: white;
+    background: rgb(212, 212, 212);
+    color: black;
+}
+.search{
+    background: white;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid pink;
+    border-radius: 5px;
+    height: 20px;
+}
+.search i{
+    color: black;
+    padding-right: 10px;
 }
 .dropdown-menu-search{
+    background: white;
     display: inline;
+    position: absolute;
+    top : -1px;
+    left : -1px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding-left: 5px;
 }
+.dropdown-menu-search button{
+    border: none;
+    background: white;
+
+}
+.search input{
+    border: none;
+    padding: 0 60px 0 0;
+}
+
+
 
 
 .nav-menu-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
+    color: black;
 }
 .menu-header{
     display: inline;
@@ -31,12 +70,18 @@
     margin-right: 10px;
 }
 
-.sign-in{
+
+.menu-header > li:first-child button{
+    background: none;
+    border: none;
+}
+.sign-in-ele{
     display: inline;
     margin-top: 10px;
 }
 .sign-in button{
-    margin-right: 20px;
+    background: none;
+    border: none;
 }
 .header-cart{
     display: inline;
@@ -44,7 +89,7 @@
 
 /* TODO : Container */
 .header-container{
-    background: pink;
+    background: white;
     /* padding: 20px 0 20px 0; */
 }
 .header-container p{
