@@ -8,6 +8,11 @@ a{
     color: black;
 
 }
+ul{
+    list-style: none;
+}
+
+
 
 .content-main{
     padding: 20px 50px 20px 50px;
@@ -15,7 +20,7 @@ a{
 
 /* TODO : style HEADER */
 .header_container{
-    background: rgb(212, 212, 212);
+    background: white;
     color: black;
 }
 .search{
@@ -52,8 +57,6 @@ a{
 }
 
 
-
-
 .nav-menu-header{
     display: flex;
     justify-content: space-between;
@@ -70,6 +73,16 @@ a{
     margin-right: 10px;
 }
 
+.button-max-width{
+    width: 100%;
+}
+.button-pink{
+    border-radius: 5px;
+    background: pink;
+    border: none;
+    height: 30px;
+    margin-top: 10px;
+}
 
 .menu-header > li:first-child button{
     background: none;
@@ -78,6 +91,9 @@ a{
 .sign-in-ele{
     display: inline;
     margin-top: 10px;
+}
+.sign-in{
+    margin-right: 20px;
 }
 .sign-in button{
     background: none;
@@ -89,55 +105,51 @@ a{
 
 /* TODO : Container */
 .header-container{
-    background: white;
-    /* padding: 20px 0 20px 0; */
+    background: url(assets/background.jpg);
+    background-size: cover;
+    width: 100%;
+    color: white;
 }
 .header-container p{
     width: 300px;
 }
 .container-main{
-    background: cyan;
+    background: white;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     /* khoảng cách giữa các column */
-    grid-column-gap: 10px;
+    grid-column-gap: 100px;
     padding-top: 40px;
 }
-.container-main{
-
-}
-.welcome{
-
-
-}
 .welcome button{
-
     display: block;
-
-
 }
 .popular{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 10px;
+}
+.img-item-popular{
+    height: 50px;
+    width: auto;
+}
+
+.img-item-clothing{
+    width: auto;
+}
+.img-item-deals{
+    height: 100px;
+    width: auto;
 }
 .title-ele{
     grid-column-start: 1;
     grid-column-end: 3;
 }
-.popular-item{
 
-}
-.clothing{
-
-
-}
-.deals{
-
-
-}
-.footer-container button{
-    width: 100%;
+.footer-container{
+    background: pink;
+    border: none;
+    height: 50px;
 }
 
 
