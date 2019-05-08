@@ -4,6 +4,7 @@
 # Liên kết :
 * Link đề bài : https://www.lucidchart.com/pages/templates/wireframe/ecommerce-wireframe-template.
 * Tham khảoo cách sử dụnng grid : https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout.
+* Link bài làm online : https://chudang98.github.io/Lucidchart/
 # Hướng dẫn sử dụng :
 * Chạy file index.html.
 
